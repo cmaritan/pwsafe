@@ -8,10 +8,10 @@ Vendor: Rony Shapiro
 URL: https://pwsafe.org/
 Packager: David Dreggors <dadreggors@gmail.com>
 Source:	passwordsafe-@VERSION@-src.tgz
-BuildRequires: gcc-c++, libXt-devel, libXtst-devel, libuuid-devel, libyubikey-devel, xerces-c-devel, ykpers-devel, wxGTK3-devel, make
+BuildRequires: gcc-c++, libXt-devel, libXtst-devel, libuuid-devel, libyubikey-devel, xerces-c-devel, ykpers-devel, wxGTK3-devel, make, file-devel
 BuildRequires: zip
 BuildRequires: gettext
-%{?el7:Requires: epel-release, wxBase3, wxGTK3, xerces-c, ykpers}
+%{?el7:Requires: epel-release, wxBase3, wxGTK3, xerces-c, ykpers, file-libs}
 
 %description
 Password Safe is a password database utility. Like many other such
